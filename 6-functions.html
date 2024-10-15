@@ -56,11 +56,7 @@
   // }
 
   function warmEnough(temperature) {
-    if (temperature > 10) {
-      return true;
-    } else {
-      return false;
-    }
+    return temperature > 10;
   }
   if (warmEnough(15)) {
     console.log("Go for a run!");
